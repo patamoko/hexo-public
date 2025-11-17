@@ -1,0 +1,1 @@
+var a=(e=>(e.Home="/",e.About="/about",e.Categories="/categories",e.Tags="/tags",e.Weekly="/weekly",e.Post="/post",e.Archives="/archives",e))(a||{});function i(e,r){let t=e;if(!r)return t;switch(e){case a.Post:t+=`/${r?.data?.link??r?.slug}`;break}return t}a.Post;export{a as R,i as r};
